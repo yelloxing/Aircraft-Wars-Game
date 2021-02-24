@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
-const buildPath = 'dist'
+const buildPath = 'docs'
 
 module.exports = {
   entry: path.resolve(__dirname, 'src/index.tsx'),
